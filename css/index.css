@@ -1,0 +1,93 @@
+.header {
+	width: 95%;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	padding: 0;
+	background: #eff3e9;
+}
+
+.header_icon img {
+	float: left;
+	height: 60px;
+	margin-left: 40px;
+
+}
+.header_icon h1 {
+	width: 45%;
+	margin: 0 0 0 30px;
+	height: 60px;
+	float: left;
+	color: #269b42;
+}
+.nav {
+	float: right;
+	width: 35%;
+	height: 60px;
+	margin: 0 50px;
+	padding: 0;
+}
+.nav li{
+	list-style-type: none;
+	float: left;
+	width: 80px;
+}
+.nav ul {
+	margin: 0;
+	height: 60px;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+
+}
+a:link {color:#FF00FF;}    /* unvisited link */
+a:visited {color:#269b42;} /* visited link */
+a:hover {color:#FF00FF;}   /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+
+/*for footer*/
+.footer {
+	border: 1px solid black;
+	width: 95%;
+	height: 420px;
+	margin: 0 auto;
+	padding: 0;
+	background: #4b4949;
+
+}
+.con_footer {
+	width: 21%;
+	height: 360px;
+	float: left;
+	margin: 10px 10px 0 10px;
+	padding: 10px;
+
+}
+.con_footer a {
+	display: block;
+	border-bottom : 1px solid black;
+	font-size: 12px;
+}
+.con_footer h3 {
+	display: inline;
+	font-weight: normal;
+	border-bottom: 3px solid green;
+}
+.con_footer p,h3 {
+	color: #a6a6a6;
+}
+p{
+	font-size: 12px;
+}
+.end {
+	width: 95%;
+	height: 50px;
+	background: #000000;
+	margin: 3px auto;
+	border: 1px solid black;
+}
+.end p {
+	margin-left: 20px;
+}
